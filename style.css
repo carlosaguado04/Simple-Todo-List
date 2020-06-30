@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  background-image: linear-gradient(120deg, #7474bf, #348ac7);
   color: white;
   font-family: "Montserrat";
   min-height: 100vh;
@@ -39,7 +39,7 @@ body form button {
 }
 
 body form button {
-  color: #fda085;
+  color: #7474bf;
   background: white;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -47,7 +47,7 @@ body form button {
 }
 
 body form button:hover {
-  background: #fda085;
+  background: #348ac7;
   color: white;
 }
 
@@ -94,7 +94,7 @@ body .todo li {
 
 body .trash-btn,
 body .complete-btn {
-  background: #ff6f47;
+  background: #fa1616;
   color: white;
   border: none;
   padding: 1rem;
@@ -103,7 +103,7 @@ body .complete-btn {
 }
 
 body .complete-btn {
-  background: green;
+  background: #b6eb7a;
 }
 
 body .todo-item {
@@ -141,26 +141,28 @@ body .select {
 }
 
 body select {
-  color: #ff6f47;
+  color: #7474bf;
+  font-size: 17px;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
+  outline: none;
 }
 
 body .select::after {
   content: "\25bc";
   position: absolute;
-  background: #ff6f57;
+  background: #7474bf;
   top: 0;
   right: 0;
-  padding: 1rem;
+  padding: 1.1rem;
   pointer-events: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 body .select:hover::after {
-  background: white;
-  color: #ff6f47;
+  background: #348ac7;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
